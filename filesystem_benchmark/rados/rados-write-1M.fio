@@ -1,0 +1,17 @@
+[global]
+#logging
+#write_iops_log=write_iops_log
+#write_bw_log=write_bw_log
+#write_lat_log=write_lat_log
+ioengine=rados
+clientname=admin
+pool=rados
+busy_poll=0
+rw=write
+bs=1M
+runtime=300
+
+[rbd_iodepth32]
+iodepth=32
+size=10G
+nr_files=1000
