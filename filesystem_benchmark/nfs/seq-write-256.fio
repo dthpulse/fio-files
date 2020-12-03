@@ -1,6 +1,5 @@
 [global]
 name=fio-seq-write
-filename=fio-seq-write
 directory=/nfs
 rw=write
 bs=256K
@@ -13,3 +12,4 @@ runtime=300
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile

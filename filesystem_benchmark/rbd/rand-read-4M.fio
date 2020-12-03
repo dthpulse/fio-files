@@ -17,6 +17,6 @@ iodepth=32
 
 [randread-bs-4M]
 name=fio-rand-read-4M
-filename=fio-rand-read-4M
 bs=4M
 rw=randread
+filename=fiotestfile

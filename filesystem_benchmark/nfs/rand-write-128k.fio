@@ -1,6 +1,5 @@
 [global]
 name=fio-rand-write-128k
-filename=fio-rand-write-128k
 rw=randwrite
 directory=/nfs
 bs=128K
@@ -14,3 +13,4 @@ group_reporting
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile

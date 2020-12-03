@@ -17,6 +17,6 @@ iodepth=32
 
 [randrw-bs-128K]
 name=fio-rand-rw-128K
-filename=fio-rand-rw-128K
 bs=128K
 rw=randrw
+filename=fiotestfile

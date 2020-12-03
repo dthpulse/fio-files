@@ -17,6 +17,6 @@ iodepth=32
 
 [seqwrite-bs-256K]
 name=fio-seqwrite-256K
-filename=fio-seqwrite-256K
 bs=256K
 rw=write
+filename=fiotestfile

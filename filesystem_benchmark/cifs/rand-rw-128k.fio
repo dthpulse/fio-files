@@ -1,6 +1,5 @@
 [global]
 name=fio-rand-RW-128k
-filename=fio-rand-RW-128k
 rw=randrw
 directory=/cifs
 rwmixread=60
@@ -17,3 +16,4 @@ size=10G
 ioengine=libaio
 iodepth=32
 
+filename=fiotestfile

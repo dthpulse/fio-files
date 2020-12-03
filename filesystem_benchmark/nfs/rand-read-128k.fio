@@ -2,7 +2,6 @@
 
 [global]
 name=fio-rand-read-128k
-filename=fio-rand-read-128k
 rw=randread
 directory=/nfs
 bs=128K
@@ -19,3 +18,4 @@ end_fsync=0
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile

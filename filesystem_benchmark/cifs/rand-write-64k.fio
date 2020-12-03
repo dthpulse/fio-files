@@ -1,6 +1,5 @@
 [global]
 name=fio-rand-write-64k
-filename=fio-rand-write-64k
 directory=/cifs
 rw=randwrite
 bs=64K
@@ -14,3 +13,4 @@ group_reporting
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile

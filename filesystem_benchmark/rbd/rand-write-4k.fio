@@ -17,6 +17,6 @@ iodepth=32
 
 [randwrite-bs-4K]
 name=fio-rand-write-4K
-filename=fio-rand-write-4K
 bs=4K
 rw=randwrite
+filename=fiotestfile

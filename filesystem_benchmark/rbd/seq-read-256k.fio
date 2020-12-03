@@ -17,6 +17,6 @@ iodepth=32
 
 [seqread-bs-256K]
 name=fio-seqread-256K
-filename=fio-seqread-256K
 bs=256K
 rw=read
+filename=fiotestfile

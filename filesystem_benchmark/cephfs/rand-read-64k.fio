@@ -2,7 +2,6 @@
 
 [global]
 name=fio-rand-read-64k
-filename=fio-rand-read-64k
 rw=randread
 directory=/cephfs
 bs=64K
@@ -19,3 +18,4 @@ end_fsync=0
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile

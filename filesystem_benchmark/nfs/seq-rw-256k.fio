@@ -1,6 +1,5 @@
 [global]
 name=fio-seq-RW-256k
-filename=fio-seq-RW-256k
 directory=/nfs
 rw=rw
 rwmixread=60
@@ -16,3 +15,4 @@ group_reporting
 size=10G
 ioengine=libaio
 iodepth=32
+filename=fiotestfile
